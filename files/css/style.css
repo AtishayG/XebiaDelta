@@ -1448,6 +1448,7 @@ nav#main-nav .mega-menu-content ul li.mega-menu-title > a:after {
 	color: #1a1a1a;
 	text-transform: uppercase;
 	background: none;
+	border-bottom:1px solid #000;
 	}
 	
 #header-search .header-search-content input[type=text]::-webkit-input-placeholder { opacity: 1; } 
@@ -2084,7 +2085,7 @@ footer #backtotop:before {
 /* hero pagetitle */
 #hero #page-title {
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 	position: relative;
 	}
 	#hero #page-title:not(.wrapper):not(.wrapper-small) { width: calc(100% - 120px); padding-left: 60px; padding-right: 60px; }
@@ -2189,7 +2190,12 @@ header.header-style-floating + #hero #page-title { padding-top: 140px; }
 
 ------------------------------------------------*/
 .portfolio-item .portfolio-desc {
-	margin-top: 15px;
+	/**margin-top: -60px;
+    position: absolute;
+    background: #003264;
+    width: 100%;
+    padding: 20px 20PX;**/
+    margin-top:15px;
 	}
 	.portfolio-item .portfolio-desc:first-child { margin-top: 0px; }
 
@@ -5374,7 +5380,7 @@ header:not(.header-transparent):not(.header-style-floating):not(.header-style-ve
 header.has-top-bar:not(.header-transparent):not(.header-style-floating):not(.header-style-vertical) + #hero { margin-top: calc(90px + 40px); }
 header.has-top-bar:not(.header-transparent):not(.header-style-floating):not(.header-style-vertical) + #hero.hero-full { min-height: calc(100vh - 90px - 40px); }
 header.has-top-bar:not(.header-transparent):not(.header-style-floating):not(.header-style-vertical) + #page-body { margin-top: calc(90px +40px); }
-header.header-transparent.header-bordered + #hero #page-title, header.header-style-floating + #hero #page-title { margin-top: 90px; }
+header.header-transparent.header-bordered + #hero #page-title, header.header-style-floating + #hero #page-title { margin-top: 20px; }
 #hero #page-title.title-adapt:not(.title-top):not(.title-bottom) { top: 90px; }
 header.header-transparent + #page-body .fullwidth-section:first-child::before { height: 90px; }
 header:not(.header-transparent) + #page-body .fullwidth-section.fullheight:first-child { min-height: calc(100vh - 90px); }
