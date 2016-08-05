@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="files/css/audioplayer.css" />
     <link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="isotope-style-css"  href="files/css/isotope.css" type="text/css" media="all" />
     <link rel="stylesheet" id="mediaelement-style-css" href="files/css/mediaelementplayer.css" type="text/css" media="all" />
@@ -113,14 +114,22 @@
                 
     	<div id="portfolio-grid" class="isotope-grid portfolio-container style-column-4 isotope-spaced clearfix">
         	
-            <div class="isotope-item portfolio-item ent">
-                    <h6 class="subtitle-2">Mixcloud</h6>
-                    <iframe src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=220384ce-052b-4084-9526-d527cf203f79&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2FBonobo%2Foutlier-radio-001-on-nts%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" frameborder="0" height="180" width="100%"></iframe>
+             <div class="isotope-item portfolio-item ent" id="music1">
+                <div class="portfolio-media">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
+                        <img src="files/uploads/Music/9.jpg">
+                    </a>
+                </div>
+                <div class="portfolio-desc">
+                    <a href="#">
+                        <h5 class="portfolio-name" ><strong>Kala Chashma - Neha Kakkar</strong></h5>
+                    </a>
+                </div>
             </div>
 
-              <div class="isotope-item portfolio-item ent">
+              <div class="isotope-item portfolio-item ent" id="music2">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/1.jpg">
                     </a>
                 </div>
@@ -133,7 +142,7 @@
 
               <div class="isotope-item portfolio-item ent">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/2.jpg">
                     </a>
                 </div>
@@ -146,7 +155,7 @@
 
               <div class="isotope-item portfolio-item inf">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/3.jpg">
                     </a>
                 </div>
@@ -159,7 +168,7 @@
 
               <div class="isotope-item portfolio-item inf">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/4.jpg">
                     </a>
                 </div>
@@ -172,7 +181,7 @@
 
               <div class="isotope-item portfolio-item inf">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/5.jpg">
                     </a>
                 </div>
@@ -185,7 +194,7 @@
 
               <div class="isotope-item portfolio-item inf">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/6.jpg">
                     </a>
                 </div>
@@ -198,7 +207,7 @@
 
             <div class="isotope-item portfolio-item ent">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/7.jpg">
                     </a>
                 </div>
@@ -211,7 +220,7 @@
 
              <div class="isotope-item portfolio-item ent wide">
                 <div class="portfolio-media">
-                    <a href="portfolio-single-custom.html" class="thumb-overlay overlay-effect-1 text-light">
+                    <a href="#!" class="thumb-overlay overlay-effect-1 text-light">
                         <img src="files/uploads/Music/8.jpg">
                     </a>
                 </div>
@@ -226,15 +235,19 @@
             
  	</section>
 	<!-- PAGEBODY -->
-    
-    
-    <!-- FOOTER -->  
+    <div id="wrapper">
+    <audio preload="auto" controls id="audio">
+        <source class="src1" src="files/assets/audio/BlueDucks_FourFlossFiveSix.mp3">
+        <source class="src2" src="files/assets/audio/BlueDucks_FourFlossFiveSix.ogg">
+        <source class="src3" src="files/assets/audio/BlueDucks_FourFlossFiveSix.wav">
+    </audio>
+    </div>
+    <!-- FOOTER  
     <footer id="footer" class="footer-light text-dark">
          <img src="files/uploads/XebiaLogo.jpg" class="right-float">
          <img src="files/uploads/DeltaLogo.jpg" class="left-float">
-         <center><div class="copyright"><small>Copyright &copy; 2016 by Delta Air-Lines Inc</small></div></center>
     </footer>
-    <!-- FOOTER -->
+    FOOTER -->
     
 </div> <!-- END #page-content -->
 <!-- PAGE CONTENT -->
@@ -249,7 +262,23 @@
 <script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>
 <script type="text/javascript" src="files/js/mediaelement-and-player.min.js"></script>
 <script type="text/javascript" src="files/js/script.js"></script>
+<script src="files/js/audioplayer.js"></script>
+          
 <!-- SCRIPTS -->
+  <script>
+  $( function() { $( 'audio' ).audioPlayer(); } );
+
+  $('#music1').click(function(){
+     var fileName = "files/assets/audio/KalaChashma.mp3";
+     $("#audio").attr("src",fileName).trigger("play");
+  });
+
+  $('#music2').click(function(){
+     var fileName = "files/assets/audio/BlueDucks_FourFlossFiveSix.mp3";
+     $("#audio").attr("src",fileName).trigger("play");
+  });
+
+  </script>
 
 </body>
 </html>

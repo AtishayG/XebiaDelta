@@ -5384,6 +5384,6 @@ header.header-transparent.header-bordered + #hero #page-title, header.header-sty
 #hero #page-title.title-adapt:not(.title-top):not(.title-bottom) { top: 90px; }
 header.header-transparent + #page-body .fullwidth-section:first-child::before { height: 90px; }
 header:not(.header-transparent) + #page-body .fullwidth-section.fullheight:first-child { min-height: calc(100vh - 90px); }
-
+.mejs-container{display:none;}
 
 /* YOUR CUSTOM CSS */
