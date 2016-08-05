@@ -258,9 +258,19 @@ Smartphones
 	h2 { font-size: 34px; line-height: 42px; }
 	h3 { font-size: 27px; line-height: 38px; }
 	h4 { font-size: 20px; line-height: 29px; }
-	h5 { font-size: 15px; line-height: 22px; }
-	h6 { font-size: 13px; line-height: 20px; } 
-	
+	h5 { font-size: 12px; line-height: 22px; }
+	h6 { font-size: 13px; line-height: 20px; }
+	.filter{
+		padding:20px 10px;
+		width:100%;
+	} 
+	.filter li{
+		margin:0px 2px;
+		padding:2px 7px;
+	}
+	.filter li a{
+		font-size: 12px;
+	}
 	div h1, div h2, div h3, div h4, div h5, div h6 { margin-top: 30px; }
 	i + h1, i + h2, i + h3, i + h4, i + h5, i + h6 { margin-top: 15px; }
 	h1 + h1, h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6,
@@ -376,7 +386,7 @@ Smartphones
 	.isotope-grid.isotope-spaced { width: calc(100% - 10px); left: 15px; }
 	
 	/* header search */
-	#header-search .header-search-content input[type=text] { font-size: 26px; height: 30px; line-height: 30px; }	
+	#header-search .header-search-content input[type=text] { font-size: 20px; height: 30px; line-height: 30px; }	
 	
 	/* comments */
 	.comments .comment-content { margin-left: 0px; }
