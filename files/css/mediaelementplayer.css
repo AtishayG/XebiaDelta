@@ -15,6 +15,7 @@
 	text-align: left;
 	vertical-align: top;
 	text-indent: 0;
+	display: block;
 }
 
 .mejs-container:focus { 
